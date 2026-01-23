@@ -1,11 +1,11 @@
 # TFDAT
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)
 
-TFDAT (Temporal FDAT) is a custom VSR architecture. This is a continuation of my previous VSR architectures, namely TSPANv2. TFDAT is a major step up in every way, providing significantly better quality, temporal coherency, and even inference speed! 
+TFDAT (Temporal FDAT) is a custom VSR architecture. This is a continuation of my previous VSR architectures, namely TSPANv2. TFDAT is a major step up in every way, providing significantly better quality, temporal coherency, and even inference speed! This arch has support for PyTorch, ONNX, and TensorRT! 
 
-This arch has support for PyTorch, ONNX, and TensorRT.
+This repository only hosts the Pytorch inference code. To train a TFDAT model, you'll want to use [traiNNer-redux](https://github.com/Kim2091/traiNNer-redux-1) with the TFDAT config and a video dataset. 
 
-This repository hosts the Pytorch inference code. To train a TFDAT model, you'll want to use [traiNNer-redux](https://github.com/Kim2091/traiNNer-redux-1) with the TFDAT config and a video dataset. For easier inference than the GUI provided in this codebase, try out [Vapourkit](https://github.com/Kim2091/vapourkit). To make a video dataset, try my other tool, [video destroyer](https://github.com/Kim2091/video-destroyer).
+For easier inference than the GUI provided in this codebase, try out [Vapourkit](https://github.com/Kim2091/vapourkit). To make a video dataset, try my other tool, [video destroyer](https://github.com/Kim2091/video-destroyer).
 
 ## Getting Started
 
@@ -62,6 +62,7 @@ Thank you to leobby and Bendel for testing the arch!
 - Folder structure and video processing code is derived from [SCUNet](https://github.com/aaf6aa/SCUNet)
 
 - The TFDAT architecture is based on [FDAT](https://github.com/stinkybread/FDAT) with extensive modifications
+
 
 
 
