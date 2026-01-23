@@ -61,7 +61,7 @@ Unlike my previous repositories, ONNX conversion is now done within [traiNNer-re
 Thank you to leobby and Bendel for testing the arch!
 - Folder structure and video processing code is derived from [SCUNet](https://github.com/aaf6aa/SCUNet)
 
-- Uses a modified version of [FDAT](https://github.com/stinkybread/FDAT)
+- The TFDAT architecture is based on [FDAT](https://github.com/stinkybread/FDAT) with extensive modifications
 
 
 
