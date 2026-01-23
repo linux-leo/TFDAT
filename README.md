@@ -22,7 +22,10 @@ This repository hosts the Pytorch inference code. To train a TFDAT model, you'll
 
 ## Usage
 
-You can use TFDAT through the included graphical user interface (GUI), [Vapourkit](https://github.com/Kim2091/vapourkit) (preferred), or the command line.
+You can use TFDAT through [Vapourkit](https://github.com/Kim2091/vapourkit) (preferred), the included GUI (directions below), or the command line.
+
+<img width="2033" height="1248" alt="image" src="https://github.com/user-attachments/assets/821bf399-cf6c-4170-a492-1df5ebef305f" />
+
 
 ## TensorRT
 
@@ -35,9 +38,6 @@ For an easy-to-use experience with PyTorch or ONNX models, launch the GUI:
 ```bash
 python vsr_gui.py
 ```
-
-<img width="602" height="698" alt="image" src="https://github.com/user-attachments/assets/744fd695-3fe8-4dc7-b52c-f3bca423e13c" />
-
 
 ### Command-Line Usage
 
@@ -58,4 +58,5 @@ Unlike my previous repositories, ONNX conversion is now done within traiNNer-red
 ## Credits (thanks all!)
 Thank you to leobby and Bendel for testing the arch!
 - Folder structure and video processing code is derived from [SCUNet](https://github.com/aaf6aa/SCUNet)
+
 - Uses a modified version of [FDAT](https://github.com/stinkybread/FDAT)
