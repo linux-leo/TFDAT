@@ -1,7 +1,7 @@
 # TFDAT
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)
 
-TFDAT (Temporal FDAT) is a custom VSR architecture. This is a continuation of my previous VSR architectures, namely TFDAT. TFDAT is a major step up in every way, providing significantly better quality, temporal coherency, and even inference speed! 
+TFDAT (Temporal FDAT) is a custom VSR architecture. This is a continuation of my previous VSR architectures, namely TSPANv2. TFDAT is a major step up in every way, providing significantly better quality, temporal coherency, and even inference speed! 
 
 This arch has support for PyTorch, ONNX, and TensorRT.
 
@@ -62,5 +62,6 @@ Thank you to leobby and Bendel for testing the arch!
 - Folder structure and video processing code is derived from [SCUNet](https://github.com/aaf6aa/SCUNet)
 
 - Uses a modified version of [FDAT](https://github.com/stinkybread/FDAT)
+
 
 
