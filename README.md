@@ -55,11 +55,12 @@ Key arguments for `test_vsr.py` and `test_onnx.py`:
 -   `--crf`: Set the Constant Rate Factor for quality (for `libx264`/`libx265`).
 
 ## ONNX Conversion
-Unlike my previous repositories, ONNX conversion is now done within traiNNer-redux instead. Follow these directions: https://trainner-redux.readthedocs.io/en/latest/getting_started.html#convert-models-to-onnx
+Unlike my previous repositories, ONNX conversion is now done within [traiNNer-redux](https://github.com/Kim2091/traiNNer-redux-1) instead. Follow these directions: https://trainner-redux.readthedocs.io/en/latest/getting_started.html#convert-models-to-onnx
 
 ## Credits (thanks all!)
 Thank you to leobby and Bendel for testing the arch!
 - Folder structure and video processing code is derived from [SCUNet](https://github.com/aaf6aa/SCUNet)
 
 - Uses a modified version of [FDAT](https://github.com/stinkybread/FDAT)
+
 
