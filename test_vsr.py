@@ -259,9 +259,7 @@ def main():
         if idx > 0:
             average_fps = idx / (total_time / 1000)  # Convert ms to seconds
             logger.info(f'Processed {idx} images in {timedelta(milliseconds=total_time)}, average {average_fps:.2f} FPS')        
-        
-        # Standard, graceful Python exit instead of os._exit
-        os._exit(0)
+                os._exit(0)
 
 if __name__ == '__main__':
     main()
