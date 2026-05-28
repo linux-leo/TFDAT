@@ -240,8 +240,7 @@ def main():
     except Exception as e:
         logger.error(f"\nAn error occurred: {e}")
     finally:
-        import sys  # Standard way to exit in Python
-        
+
         if video_decoder:
             video_decoder.stop()
             
