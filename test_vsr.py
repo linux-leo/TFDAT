@@ -240,11 +240,17 @@ def main():
     except Exception as e:
         logger.error(f"\nAn error occurred: {e}")
     finally:
+        import sys  # Standard way to exit in Python
+        
         if video_decoder:
             video_decoder.stop()
+            
         if video_encoder:
             video_encoder.stop()
-            video_encoder.join(timeout=5)
+            logger.info("Waiting for video encoder to write remaining frames and finalize the file...")
+            # Remove the 5-second timeout so it waits until the file is fully written and closed!
+            video_encoder.join() 
+            
             if idx > 0:
                 logger.info(f"\nSaved video to {E_path}")
                 output_dir = os.path.dirname(os.path.abspath(E_path))
@@ -253,6 +259,8 @@ def main():
         if idx > 0:
             average_fps = idx / (total_time / 1000)  # Convert ms to seconds
             logger.info(f'Processed {idx} images in {timedelta(milliseconds=total_time)}, average {average_fps:.2f} FPS')        
+        
+        # Standard, graceful Python exit instead of os._exit
         os._exit(0)
 
 if __name__ == '__main__':
